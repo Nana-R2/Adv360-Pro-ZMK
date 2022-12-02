@@ -2,19 +2,19 @@ macro_exit: macro_exit{
 compatible = "zmk,behavior-macro";
 label = "macro_exit";
 #binding-cells = <0>;
-bindings = <&sk LALT>, <&sk LCTRL>, <&sk LSHIFT>, <&kp O>;
+bindings = <&sk LCTRL>, <&sk LSHIFT>, <&sk LALT>, <&kp O>;
 };
 macro_enter: macro_enter{
 compatible = "zmk,behavior-macro";
 label = "macro_enter";
 #binding-cells = <0>;
-bindings = <&sk LALT>, <&sk LCTRL>, <&sk LSHIFT>, <&kp I>;
+bindings = <&sk LCTRL>, <&sk LSHIFT>, <&sk LALT>, <&kp I>;
 };
 macro_open_script: macro_open_script{
 compatible = "zmk,behavior-macro";
 label = "macro_open_script";
 #binding-cells = <0>;
-bindings = <&sk LALT>, <&sk LEFT_SHIFT>, <&kp O>;
+bindings = <&sk LEFT_SHIFT>, <&sk LALT>, <&kp O>;
 };
 macro_jp: macro_jp{
 compatible = "zmk,behavior-macro";
